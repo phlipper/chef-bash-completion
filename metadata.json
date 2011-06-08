@@ -1,0 +1,35 @@
+{
+  "maintainer": "Phil Cohen",
+  "attributes": {
+  },
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": [
+
+    ],
+    "debian": [
+
+    ]
+  },
+  "dependencies": {
+  },
+  "maintainer_email": "github@phlippers.net",
+  "conflicting": {
+  },
+  "version": "0.1.0",
+  "name": "bash-completion",
+  "recipes": {
+  },
+  "providing": {
+  },
+  "license": "Apache 2.0",
+  "replacing": {
+  },
+  "groupings": {
+  },
+  "long_description": "",
+  "recommendations": {
+  },
+  "description": "Installs bash-completion"
+}
