@@ -1,6 +1,6 @@
 # DESCRIPTION
 
-Installs the bash-completion package from (http://caliban.org/bash/). Currently only targeting Ubuntu platform. It's not complicated and would work on other platforms, but that can come later.
+Installs the bash-completion package from (http://caliban.org/bash/). Currently targeting Ubuntu, Debian, CentOS, RHEL and Fedora platforms. It's not complicated and would work on other platforms, but that can come later.
 
 # REQUIREMENTS
 
@@ -10,7 +10,9 @@ The following platforms are supported by this cookbook, meaning that the recipes
 
 * Ubuntu
 * Debian
-
+* CentOS
+* RHEL
+* Fedora
 
 # USAGE
 
