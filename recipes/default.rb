@@ -17,4 +17,6 @@
 # limitations under the License.
 #
 
+return unless platform?("ubuntu", "debian", "centos", "redhat", "fedora")
+
 package "bash-completion"
