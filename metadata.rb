@@ -2,7 +2,7 @@ maintainer       "Phil Cohen"
 maintainer_email "github@phlippers.net"
 license          "Apache 2.0"
 description      "Installs bash-completion"
-version          "0.1"
+version          "0.2.0"
 
 supports "ubuntu"
 supports "debian"
