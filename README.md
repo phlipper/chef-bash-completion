@@ -1,10 +1,13 @@
-# DESCRIPTION
+# chef-bash-completion
 
-Installs the bash-completion package from (http://caliban.org/bash/). Currently targeting Ubuntu, Debian, CentOS, RHEL and Fedora platforms. It's not complicated and would work on other platforms, but that can come later.
+## Description
 
-# REQUIREMENTS
+Installs the bash-completion package from (http://caliban.org/bash/).
 
-## Supported Platforms
+
+## Requirements
+
+### Supported Platforms
 
 The following platforms are supported by this cookbook, meaning that the recipes run on these platforms without error:
 
@@ -14,27 +17,40 @@ The following platforms are supported by this cookbook, meaning that the recipes
 * RHEL
 * Fedora
 
-# USAGE
+
+## Recipes
+
+* `bash-completion` - The default recipe. Installs the system package.
+
+
+## Usage
 
 This cookbook installs bash-completion if not present and pulls updates if it is installed on the system.
 
-# LICENSE and AUTHOR:
 
-Author:: Phil Cohen (<github@phlippers.net>)
+## Contributors
 
-Copyright:: 2011, Phil Cohen
+Many thanks go to the following [contributors](https://github.com/phlipper/chef-bash-completion/graphs/contributors) who have helped to make this cookbook even better:
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+* **[@jspiewak](https://github.com/jspiewak)**
+    * add support for redhat-flavored systems
 
-    http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
+## License
+
+**chef-bash-completion**
+
+* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2014/license.html).
+* Copyright (c) 2011-2014 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)  [![Gittip](http://img.shields.io/gittip/phlipper.png)](https://www.gittip.com/phlipper/)
+* http://phlippers.net/
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/phlipper/chef-bash-completion/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
