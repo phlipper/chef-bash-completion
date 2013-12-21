@@ -4,6 +4,8 @@ license          "Apache 2.0"
 description      "Installs bash-completion"
 version          "0.1"
 
-%w{ubuntu debian centos redhat fedora}.each do |os|
-  supports os
-end
+supports "ubuntu"
+supports "debian"
+supports "centos"
+supports "redhat"
+supports "fedora"
